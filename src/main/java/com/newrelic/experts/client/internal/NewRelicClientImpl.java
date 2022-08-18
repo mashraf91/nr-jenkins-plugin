@@ -76,7 +76,7 @@ public class NewRelicClientImpl implements NewRelicClient {
 
     try {
       String insightsApiUrl = 
-          "https://insights-collector.newrelic.com/v1/accounts/"
+          "https://insights-collector.eu01.nr-data.net/v1/accounts/"
           + rpmAccountId
           + "/events";
       
